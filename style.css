@@ -157,3 +157,24 @@ body {
 .bold-font {
   font-weight: 600;
 }
+
+.projects {
+  padding: 3.54% 0;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(167, 158, 152), white);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-item {
+  margin: 20px 30px;
+}
+
+.projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
