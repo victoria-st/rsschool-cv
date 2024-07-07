@@ -42,3 +42,75 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
+
+.home {
+  position: relative;
+  overflow: hidden;
+  background: rgba(203, 197, 193, 0.35);
+}
+
+.home-background {
+  position: absolute;
+  left: 74%;
+  width: 53.5%;
+  height: min(52.4vw, 755.072px);
+  transform: rotate(-43.613deg);
+  background: #2e7cdf;
+  z-index: 1;
+}
+
+.home-image {
+  position: absolute;
+  left: 58%;
+  width: min-content;
+  height: 100%;
+  z-index: 2;
+}
+
+.home-image img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.home-intro {
+  margin: 9.72% 0 9.72% 5%;
+}
+
+.intro-name {
+  margin: 0px auto;
+  color: #0e3c8a;
+  font-family: Lexend Deca, sans-serif;
+  font-size: clamp(32px, 3.5vw, 64px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: clamp(20px, 2.19vw, 40px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.2;
+}
+
+.colored-text {
+  margin-left: 12px;
+  color: #0e3c8a;
+}
+
+.intro-btn {
+  padding: 15px 40px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: clamp(16px, 1.31vw, 24px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #2e7cdf;
+  border-radius: 5px;
+}
