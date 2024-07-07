@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&family=Lexend:wght@200;400;500;600;700&family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <header id="home">
+      <div class="logo"></div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about"><span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills"><span>Skills</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home-background"></div>
+        <div class="home-image">
+          <img src="assets/img/photo.png" alt="Avatar" />
+        </div>
+        <div class="home-intro">
+          <h1 class="intro-name">Victoria Stratulat</h1>
+          <br />
+          <span class="intro-text"
+            >I am<span class="colored-text">Front-End Developer</span></span
+          ><br />
+          <button class="intro-btn">Contact</button>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-contact">
+          <div class="contact-detail">
+            <span>Email</span><br />
+            <span class="bold-font">victoria.stratulat@gmail.com</span>
+          </div>
+          <div class="contact-detail">
+            <span>Discord</span><br />
+            <span class="bold-font">victoriastratulat_13294</span>
+          </div>
+        </div>
+        <div class="about-summary">
+          <h2 class="section-header">About me</h2>
+          <p class="about-text">
+            I am Victoria Stratulat, a beginner in Frontend Development after a
+            great experience in software testing. It was a great opportunity to
+            see the software development process from zero. Partially, my
+            interest for web development was caused by a bad job made by other
+            developers. I was curious to try to write code by myself, in order
+            to understand how complicate it is. My experience in Quality
+            Assurance allows me to better understand where the defects may hide.
+          </p>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="section-header">Projects</h2>
+        <div class="projects-container">
+          <div class="projects-item">
+            <a href="assets/projects/landing/index.html">
+              <img
+                src="assets/img/landing.jpg"
+                alt="Marketing Agency website"
+              />
+            </a>
+          </div>
+          <div class="projects-item">
+            <a href="assets/projects/to-do-list/index.html">
+              <img src="assets/img/to-do-list.jpg" alt="To Do List" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
