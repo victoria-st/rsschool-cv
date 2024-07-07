@@ -8,3 +8,37 @@ body {
   margin: 0 auto;
   background: #fff;
 }
+
+#home {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 3.5%;
+  background: #fff;
+  box-shadow: 4px 0px 4px 0px rgba(33, 30, 30, 0.35);
+}
+
+.logo {
+  width: 88.457px;
+  height: 60px;
+  background: url(./assets/img/v-letter.png), lightgray 50% / cover no-repeat;
+}
+
+.nav-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 10px 70px 10px 10px;
+  list-style: none;
+}
+
+.nav-item {
+  color: #051e55;
+  font-family: Lexend, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
