@@ -150,6 +150,10 @@ body {
   line-height: normal;
 }
 
+.contact-list {
+  list-style-type: none;
+}
+
 .contact-detail {
   margin-top: 15px;
 }
