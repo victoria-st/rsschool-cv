@@ -178,3 +178,37 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.skills {
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  margin: 4.54% 0;
+}
+
+.container-skills-item {
+  padding: 15px 45px 15px 15px;
+  text-align: left;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(16px, 1.31vw, 24px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 15px;
+  background-color: #0e3c8a;
+}
+
+.skills-list,
+.bold-font {
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.skills-item-value {
+  padding-left: 20px;
+}
